@@ -162,7 +162,7 @@ export default function App() {
             }`}
           >
             <img
-              src="/assets/aistudio/METAlurgia_business_PERU_2__733fbab0.jpg"
+              src={`${import.meta.env.BASE_URL}assets/aistudio/METAlurgia_business_PERU_2__733fbab0.jpg`}
               alt="Logo Planta Metalúrgica"
               referrerPolicy="no-referrer"
               className="w-14 h-8 sm:w-16 sm:h-9 object-contain"
@@ -419,7 +419,7 @@ export default function App() {
                   <div className="pointer-events-none absolute right-2 sm:right-4 bottom-0 z-10 transition-transform duration-200 group-hover:scale-[1.03]">
                     {area.id === 'casa-fuerza' ? (
                       <img
-                        src="/assets/aistudio/imagen_1b96487e.png"
+                        src={`${import.meta.env.BASE_URL}assets/aistudio/imagen_1b96487e.png`}
                         alt="Técnico de Casa Fuerza con EPP"
                         referrerPolicy="no-referrer"
                         className="w-40 h-44 sm:w-44 sm:h-48 object-contain object-bottom"
